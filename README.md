@@ -11,4 +11,4 @@
 1. HTML
 2. CSS
 
-[Cсылка на GitHub Pages](https://www.yandex.ru)
+[Cсылка на GitHub Pages](https://maxflying.github.io/russian-travel/index.html)
