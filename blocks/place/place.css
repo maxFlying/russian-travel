@@ -1,0 +1,36 @@
+.place {
+    display: grid;
+    grid-template-columns: minmax(min-content, 460px) minmax(min-content, 484px);
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
+    grid-template-areas: 
+    "place__title place__website"
+    "place__image place__description";
+    gap: 48px 40px;
+}
+
+@media screen and (max-width: 1024px) {
+    .place {
+        display: grid;
+        grid-template-columns: minmax(min-content, 440px) minmax(min-content, 456px);
+        column-gap: 32px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place {
+        grid-template-columns: minmax(min-content, 340px) minmax(min-content, 352px);
+        column-gap: 28px;
+    }
+}
+
+@media screen and (max-width: 586px) {
+    .place {
+        grid-template-columns: minmax(max-content, 320px);
+        grid-template-areas: 
+        "place__title"
+        "place__website"
+        "place__image" 
+        "place__description";
+        row-gap: 32px;
+    }
+}

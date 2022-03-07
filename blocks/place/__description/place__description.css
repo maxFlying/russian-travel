@@ -1,0 +1,23 @@
+.place__description {
+    grid-area: place__description;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 27px;
+    grid-template-rows: min-content;
+}
+
+@media screen and (max-width: 768px) {
+    .place__description {
+        gap: 25px;
+    }
+}
+
+@media screen and (max-width: 586px) {
+    .place__description {
+        max-width: 288px;
+        gap: 25px;
+        margin: 0 16px;
+    }
+}

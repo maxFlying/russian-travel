@@ -1,5 +1,4 @@
 .lead {
-    border: 1px solid blue;
     margin: 0 148px;
     padding-top: 56px;
     max-width: 984px;
@@ -11,7 +10,6 @@
 
 @media screen and (max-width: 1024px) {
     .lead{
-        border: 1px solid rgb(14, 158, 115);
         margin: 0 48px;
         padding-top: 48px;
         max-width: 928px;
@@ -21,7 +19,6 @@
 
 @media screen and (max-width: 768px) {
     .lead {
-        border: 1px solid rgb(189, 22, 133);
         margin: 0;
         padding-top: 48px;
         max-width: 768px;
@@ -30,7 +27,6 @@
 
 @media screen and (max-width: 320px) {
     .lead {
-        border: 1px solid rgb(250, 69, 23);
         margin: 0;
         padding-top: 48px;
         max-width: 320px;
