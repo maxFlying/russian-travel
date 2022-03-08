@@ -1,0 +1,25 @@
+.photo-grid__list-item {
+    margin: 0;
+    padding: 0;
+    max-width: 284px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1188px) {
+    .photo-grid__list-item {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 885px) {
+    .photo-grid__list-item {
+        max-width: 352px;
+    }
+}
+
+@media screen and (max-width: 586px) {
+    .photo-grid__list-item {
+        max-width: 288px;
+    }
+    
+}

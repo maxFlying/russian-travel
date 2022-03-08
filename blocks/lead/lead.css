@@ -20,15 +20,12 @@
 @media screen and (max-width: 768px) {
     .lead {
         margin: 0;
-        padding-top: 48px;
         max-width: 768px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .lead {
-        margin: 0;
-        padding-top: 48px;
         max-width: 320px;
     }
 
